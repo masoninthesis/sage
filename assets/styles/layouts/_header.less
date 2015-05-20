@@ -1,0 +1,143 @@
+/*--------*/
+/* Header */
+/*--------*/
+
+.navbar {
+  padding-top: 0px;
+  @media (min-width: @screen-sm-min) {
+    padding-top: 50px;
+  }
+}
+
+/* Logo */
+
+.logo {
+  width: 105%;
+  height: 360px;
+  margin-top: -80px;
+  display: none !important;
+  @media (min-width: @screen-sm-min) {
+    margin-top: -58px;
+  }
+  /* @media (min-width: 1000px) {
+    display: inherit;
+  } */
+}
+
+/* .logo-dark {
+  width: 105%;
+  height: 360px;
+  margin-top: -80px;
+  @media (min-width: @screen-sm-min) {
+    margin-top: -58px;
+  }
+  display: inherit;
+  @media (min-width: 1000px) {
+    display: none;
+  }
+} */
+
+.navbar-header {
+  text-align: center;
+  float: none;
+  padding-top: 13px;
+}
+
+.navbar-brand {
+  float: none;
+  text-align: center;
+  display: inherit;
+}
+
+.navbar-default>a {
+  color: white;
+}
+
+.navbar-nav {
+  float: right;
+}
+
+/* Page Nav */
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+nav {
+  margin: -46px 0 0 30px;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-text {
+  color: inherit;
+  @media (min-width: 1000px) {
+    color: #fff;
+  }
+}
+
+
+/* CTAs */
+
+.primary-site-nav-sign-in {
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 14px 30px 0 0;
+  li {
+    float: right;
+    padding: 0 10px;
+  }
+  .demo-link {
+    border: 1px solid #fff;
+    padding: 6px 1.4em;
+    border-radius: 3px;
+  }
+  .signin-link {
+    border: 1px solid @brand-primary;
+    background-color: @brand-primary;
+    color: #fff;
+    padding: 6px 1.4em;
+    border-radius: 3px;
+    }
+}
+
+/*--------*/
+/* Hero */
+/*--------*/
+
+/* BG */
+
+video {
+  width: 100%;
+  position: absolute;
+  z-index: -100;
+}
+
+video {
+  top: 14%; left: 50%;
+  min-width: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+}
+
+#hero {
+  color: #313131;
+  margin-top: 200px;
+  @media (min-width: 1000px) {
+    color: #fff;
+  }
+}
+
+/* .video-wrap {
+  background-color: rgba(52,152,219,.3);
+} */
+.mobile-bg {
+  top: 10%;
+  width: 100%;
+  background-image: url("http://local.wordpress.dev/wp-content/themes/Seaside/assets/images/mobile-hero.jpg");
+}

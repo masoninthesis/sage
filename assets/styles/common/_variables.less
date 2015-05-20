@@ -2,5 +2,52 @@
 @main-sm-columns:       @grid-columns;
 @sidebar-sm-columns:    4;
 
-// Colors
-@brand-primary:         #27ae60;
+
+/*/ Brand colors /*/
+// -------------------------//
+
+@brand-primary:         #2e3e4d;
+@brand-primary-light:   #6e7e8e;
+@brand-primary-lighter: lighten(#a3a4a6, 20%);
+@brand-primary-dark:    darken(#32353c, 0%);
+
+@brand-secondary:       #73c075;
+@brand-secondary-dark:  #47a447;
+
+/* Testing what's needed in this
+
+a {
+  color: @brand-secondary;
+  .secondary-color();
+}
+
+.primary-color {
+  .transition;
+  &:hover {
+    color: @brand-primary-dark;
+    text-decoration: none;
+  }
+}
+
+.secondary-color {
+  .transition;
+  &:hover {
+    color: @brand-secondary-dark;
+    text-decoration: none;
+  }
+}
+
+.primary-background {
+  .transition;
+  &:hover {
+    background: @brand-primary-dark;
+  }
+}
+
+.secondary-background {
+  .transition(1s);
+  &:hover {
+    background: @brand-secondary-dark;
+  }
+}
+*/

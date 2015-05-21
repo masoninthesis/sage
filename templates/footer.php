@@ -97,7 +97,7 @@
 </section>
 
 <form class="" action="index.html" method="post">
-
+  <div class="optin-form"><?php dynamic_sidebar('sidebar-footer'); ?></div>
 </form>
 
 <footer>

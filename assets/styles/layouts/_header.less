@@ -63,9 +63,12 @@ nav {
 }
 
 .nav {
-  display: -webkit-inline-box;
+  display: block;
   float: right;
   margin-top: 4px;
+  @media (min-width: 1000px) {
+    display: -webkit-inline-box;
+  }
 }
 
 .nav>li>a:focus, .nav>li>a:hover {
@@ -145,4 +148,11 @@ video {
   top: 10%;
   width: 100%;
   background-image: url("http://local.wordpress.dev/wp-content/themes/Seaside/assets/images/mobile-hero.jpg");
+}
+
+#bgvid {
+  display: none;
+  @media (min-width: 1000px) {
+    display: inherit;
+  }
 }

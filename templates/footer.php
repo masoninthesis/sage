@@ -55,6 +55,12 @@
 </div>
 <!-- //Featured Category -->
 
+<section class="text-center">
+  <div class="wrap container">
+    <p class="p-customers">Instagram:</p>
+  </div>
+</section>
+
 <!-- SnapWidget: Instagram Feed -->
 <div id="insta-feed" class="wrap container">
   <script src="http://snapwidget.com/js/snapwidget.js"></script>
@@ -70,32 +76,17 @@
 
 <section class="text-center">
   <div class="wrap container">
-    <p class="p-customers">Call us, or drop in and come talk to us.</p>
-    <div class="row">
-      <div class="col-sm-6">
-
-      </div>
-      <div class="col-sm-6">
-
-      </div>
-    </div>
+    <p class="p-customers">Drop in and come see us.</p>
   </div>
 </section>
 
 <section class="text-center">
   <address>
-    <strong>Twitter, Inc.</strong><br>
-    795 Folsom Ave, Suite 600<br>
-    San Francisco, CA 94107<br>
-    <abbr title="Phone">P:</abbr> (123) 456-7890
+    <strong>Seaside Brewery</strong><br>
+    851 Broadway<br>
+    Seaside OR 97138<br>
+    <abbr title="Phone">P:</abbr> (503) 717-5451
   </address>
-
-  <address>
-    <strong>Full Name</strong><br>
-    <a href="mailto:#">first.last@example.com</a>
-  </address>
-</section>
-
 <form class="" action="index.html" method="post">
   <div class="optin-form"><?php dynamic_sidebar('sidebar-footer'); ?></div>
 </form>

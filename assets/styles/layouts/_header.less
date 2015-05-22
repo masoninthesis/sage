@@ -9,12 +9,20 @@
   }
 }
 
+.nav>li>a {
+  color: inherit;
+  @media (min-width: 1000px) {
+    color: white;
+  }
+}
+
 /* Logo */
 
 .logo {
   width: 105%;
   height: 360px;
-  margin-top: -80px;
+  margin: -40px 0;
+  padding-bottom: 40px;
   display: none;
   @media (min-width: 1000px) {
     display: inherit;
@@ -66,7 +74,7 @@ nav {
   display: block;
   float: right;
   margin-top: 4px;
-  @media (min-width: 1000px) {
+  @media (min-width: 768px) {
     display: -webkit-inline-box;
   }
 }
@@ -100,9 +108,16 @@ nav {
     padding: 0 10px;
   }
   .demo-link {
-    border: 1px solid #fff;
+    border: 1px solid @brand-primary-dark;
+    color: @brand-primary-dark;
     padding: 6px 1.4em;
     border-radius: 3px;
+    @media (min-width: 1000px) {
+      border: 1px solid white;
+      padding: 6px 1.4em;
+      border-radius: 3px;
+      color: white;
+    }
   }
   .signin-link {
     border: 1px solid @brand-primary;

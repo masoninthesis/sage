@@ -24,7 +24,7 @@ use Roots\Sage\Wrapper;
     <section id="recent-work">
       <div class="row text-center">
         <div class="work work-one col-sm-4 col-xs-12">
-          <h2>Find the pub.</h2>
+          <h2>Find the Pub</h2>
         </div>
         <div class="work work-two col-sm-4 col-xs-12">
           <h2>Beer & Food</h2>

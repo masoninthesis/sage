@@ -17,7 +17,6 @@ use Roots\Sage\Wrapper;
       get_template_part('templates/header');
     ?>
     <?php
-      do_action('get_header');
       get_template_part('templates/home-hero');
     ?>
 
